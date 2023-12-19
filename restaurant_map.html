@@ -1,0 +1,1403 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_59d55157a6ca04cf5c63f812f9330b96 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_59d55157a6ca04cf5c63f812f9330b96" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_59d55157a6ca04cf5c63f812f9330b96 = L.map(
+                "map_59d55157a6ca04cf5c63f812f9330b96",
+                {
+                    center: [39.949, -75.15],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 16,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_64dc73709f88a607f9e22abc7657c05b = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+            var marker_35376ade92aee26ddc1cac154ab56325 = L.marker(
+                [126.993582173204, 37.5342837186122],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_81770ad8f4396919284c1f05e685b9e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6905732819295a0ecefee13e6e043482 = $(`<div id="html_6905732819295a0ecefee13e6e043482" style="width: 100.0%; height: 100.0%;">탁심케밥</div>`)[0];
+                popup_81770ad8f4396919284c1f05e685b9e1.setContent(html_6905732819295a0ecefee13e6e043482);
+            
+        
+
+        marker_35376ade92aee26ddc1cac154ab56325.bindPopup(popup_81770ad8f4396919284c1f05e685b9e1)
+        ;
+
+        
+    
+    
+            marker_35376ade92aee26ddc1cac154ab56325.bindTooltip(
+                `<div>
+                     탁심케밥
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_749023faf9374ea82a12c710094694e9 = L.marker(
+                [126.964969110669, 37.5325136326895],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_f9f3589917b9917537b962b1d0f54f39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df5bc88367d5022af58c4573aad43a86 = $(`<div id="html_df5bc88367d5022af58c4573aad43a86" style="width: 100.0%; height: 100.0%;">서울케밥</div>`)[0];
+                popup_f9f3589917b9917537b962b1d0f54f39.setContent(html_df5bc88367d5022af58c4573aad43a86);
+            
+        
+
+        marker_749023faf9374ea82a12c710094694e9.bindPopup(popup_f9f3589917b9917537b962b1d0f54f39)
+        ;
+
+        
+    
+    
+            marker_749023faf9374ea82a12c710094694e9.bindTooltip(
+                `<div>
+                     서울케밥
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_69b4e01c8ce72f33c2053ccd5d2ae359 = L.marker(
+                [126.937478897766, 37.5529754359953],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_525c24472fa3e3869bfbbbab7d17962d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7edc52f20b4da7e10679dbae953aaf3d = $(`<div id="html_7edc52f20b4da7e10679dbae953aaf3d" style="width: 100.0%; height: 100.0%;">케이디케밥하우스</div>`)[0];
+                popup_525c24472fa3e3869bfbbbab7d17962d.setContent(html_7edc52f20b4da7e10679dbae953aaf3d);
+            
+        
+
+        marker_69b4e01c8ce72f33c2053ccd5d2ae359.bindPopup(popup_525c24472fa3e3869bfbbbab7d17962d)
+        ;
+
+        
+    
+    
+            marker_69b4e01c8ce72f33c2053ccd5d2ae359.bindTooltip(
+                `<div>
+                     케이디케밥하우스
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_debc70c89f50b18f0764e764c4df3969 = L.marker(
+                [126.99726142589, 37.534981792594],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_991661b64a605dc2815959acd47bd0a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8e145ba61f85d59dfe007634f44d1c8 = $(`<div id="html_f8e145ba61f85d59dfe007634f44d1c8" style="width: 100.0%; height: 100.0%;">할랄가이즈</div>`)[0];
+                popup_991661b64a605dc2815959acd47bd0a1.setContent(html_f8e145ba61f85d59dfe007634f44d1c8);
+            
+        
+
+        marker_debc70c89f50b18f0764e764c4df3969.bindPopup(popup_991661b64a605dc2815959acd47bd0a1)
+        ;
+
+        
+    
+    
+            marker_debc70c89f50b18f0764e764c4df3969.bindTooltip(
+                `<div>
+                     할랄가이즈
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_06ff69afac518dd7f072d98316575031 = L.marker(
+                [126.993412835115, 37.5342552439015],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_b7a6c1e86ea74778e8a9479586a0e4ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4babe3414c80dcc80467d500c5328ca5 = $(`<div id="html_4babe3414c80dcc80467d500c5328ca5" style="width: 100.0%; height: 100.0%;">알페도케밥</div>`)[0];
+                popup_b7a6c1e86ea74778e8a9479586a0e4ab.setContent(html_4babe3414c80dcc80467d500c5328ca5);
+            
+        
+
+        marker_06ff69afac518dd7f072d98316575031.bindPopup(popup_b7a6c1e86ea74778e8a9479586a0e4ab)
+        ;
+
+        
+    
+    
+            marker_06ff69afac518dd7f072d98316575031.bindTooltip(
+                `<div>
+                     알페도케밥
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39553946decfce7c593d5cbed3603f3a = L.marker(
+                [127.028007819016, 37.4945563374238],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_150dfece11eee54322b00f3faed0792d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea4eb8a9cfae07bb7e55b43e7e2b1933 = $(`<div id="html_ea4eb8a9cfae07bb7e55b43e7e2b1933" style="width: 100.0%; height: 100.0%;">재개발마스터키</div>`)[0];
+                popup_150dfece11eee54322b00f3faed0792d.setContent(html_ea4eb8a9cfae07bb7e55b43e7e2b1933);
+            
+        
+
+        marker_39553946decfce7c593d5cbed3603f3a.bindPopup(popup_150dfece11eee54322b00f3faed0792d)
+        ;
+
+        
+    
+    
+            marker_39553946decfce7c593d5cbed3603f3a.bindTooltip(
+                `<div>
+                     재개발마스터키
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_36a61c620a414c8f1ec5673635808a57 = L.marker(
+                [127.031308348898, 37.5279404466687],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_e5108701b85298b053452d4c96238642 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a628705114e2d4cdb32cfab30e986510 = $(`<div id="html_a628705114e2d4cdb32cfab30e986510" style="width: 100.0%; height: 100.0%;">체터키즈</div>`)[0];
+                popup_e5108701b85298b053452d4c96238642.setContent(html_a628705114e2d4cdb32cfab30e986510);
+            
+        
+
+        marker_36a61c620a414c8f1ec5673635808a57.bindPopup(popup_e5108701b85298b053452d4c96238642)
+        ;
+
+        
+    
+    
+            marker_36a61c620a414c8f1ec5673635808a57.bindTooltip(
+                `<div>
+                     체터키즈
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18865307c40d1b31effc227b2bff18f3 = L.marker(
+                [126.92960947412, 37.5579862182261],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_668c1b90f41eaf75b3285d0b8a59775f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f18723e750d0d6fdaec80d1399fdfba5 = $(`<div id="html_f18723e750d0d6fdaec80d1399fdfba5" style="width: 100.0%; height: 100.0%;">앳할랄</div>`)[0];
+                popup_668c1b90f41eaf75b3285d0b8a59775f.setContent(html_f18723e750d0d6fdaec80d1399fdfba5);
+            
+        
+
+        marker_18865307c40d1b31effc227b2bff18f3.bindPopup(popup_668c1b90f41eaf75b3285d0b8a59775f)
+        ;
+
+        
+    
+    
+            marker_18865307c40d1b31effc227b2bff18f3.bindTooltip(
+                `<div>
+                     앳할랄
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2eda52429ff29dee86fd65ffb71666d8 = L.marker(
+                [127.036487118737, 37.5000141135255],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_3510336317c3bd63db569c4c85a69ddb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_831ec07658019b3220ed960452603b97 = $(`<div id="html_831ec07658019b3220ed960452603b97" style="width: 100.0%; height: 100.0%;">킹케밥</div>`)[0];
+                popup_3510336317c3bd63db569c4c85a69ddb.setContent(html_831ec07658019b3220ed960452603b97);
+            
+        
+
+        marker_2eda52429ff29dee86fd65ffb71666d8.bindPopup(popup_3510336317c3bd63db569c4c85a69ddb)
+        ;
+
+        
+    
+    
+            marker_2eda52429ff29dee86fd65ffb71666d8.bindTooltip(
+                `<div>
+                     킹케밥
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a68422bca1ea83365ad6dc1f2356425 = L.marker(
+                [127.072631313221, 37.6188363920637],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_e936f05d86248b1996d1aed78f7f7569 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2129c77882c853cc66d9ef97d361e7a = $(`<div id="html_b2129c77882c853cc66d9ef97d361e7a" style="width: 100.0%; height: 100.0%;">할랄박스</div>`)[0];
+                popup_e936f05d86248b1996d1aed78f7f7569.setContent(html_b2129c77882c853cc66d9ef97d361e7a);
+            
+        
+
+        marker_6a68422bca1ea83365ad6dc1f2356425.bindPopup(popup_e936f05d86248b1996d1aed78f7f7569)
+        ;
+
+        
+    
+    
+            marker_6a68422bca1ea83365ad6dc1f2356425.bindTooltip(
+                `<div>
+                     할랄박스
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_95e5e5fde3c625ad03ed7e5dbca437d5 = L.marker(
+                [126.988085629205, 37.5391294299558],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_35b5a5b36f0e73786f68c175d244ed63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9dde70ff5cdddc3bb541f4e359cd861 = $(`<div id="html_b9dde70ff5cdddc3bb541f4e359cd861" style="width: 100.0%; height: 100.0%;">킹케밥</div>`)[0];
+                popup_35b5a5b36f0e73786f68c175d244ed63.setContent(html_b9dde70ff5cdddc3bb541f4e359cd861);
+            
+        
+
+        marker_95e5e5fde3c625ad03ed7e5dbca437d5.bindPopup(popup_35b5a5b36f0e73786f68c175d244ed63)
+        ;
+
+        
+    
+    
+            marker_95e5e5fde3c625ad03ed7e5dbca437d5.bindTooltip(
+                `<div>
+                     킹케밥
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a81c9f08f30aa626962e87e544c820f = L.marker(
+                [127.040452117273, 37.5595518167192],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_36d2c27be5036d08ab562fe46732b16a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d4c00afce8b859ecf59d99caa32549c = $(`<div id="html_3d4c00afce8b859ecf59d99caa32549c" style="width: 100.0%; height: 100.0%;">칠칠켄터키</div>`)[0];
+                popup_36d2c27be5036d08ab562fe46732b16a.setContent(html_3d4c00afce8b859ecf59d99caa32549c);
+            
+        
+
+        marker_9a81c9f08f30aa626962e87e544c820f.bindPopup(popup_36d2c27be5036d08ab562fe46732b16a)
+        ;
+
+        
+    
+    
+            marker_9a81c9f08f30aa626962e87e544c820f.bindTooltip(
+                `<div>
+                     칠칠켄터키
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74fa6a9fd97fb6fbc541c31391aecc89 = L.marker(
+                [126.994583383403, 37.5347157393702],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_f2d67e4ec02480c1459e95bb91ad6c5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14533759c2c2a6925577cbc4be837876 = $(`<div id="html_14533759c2c2a6925577cbc4be837876" style="width: 100.0%; height: 100.0%;">킹케밥버거앤후라이즈</div>`)[0];
+                popup_f2d67e4ec02480c1459e95bb91ad6c5c.setContent(html_14533759c2c2a6925577cbc4be837876);
+            
+        
+
+        marker_74fa6a9fd97fb6fbc541c31391aecc89.bindPopup(popup_f2d67e4ec02480c1459e95bb91ad6c5c)
+        ;
+
+        
+    
+    
+            marker_74fa6a9fd97fb6fbc541c31391aecc89.bindTooltip(
+                `<div>
+                     킹케밥버거앤후라이즈
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e538c17033ba55bcbe7001203888845c = L.marker(
+                [126.888742110864, 37.4845792271333],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_4582acc505126f371ee272a1c772d1b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1e40fb4e204a6f9e4469f666f1d0f0b = $(`<div id="html_b1e40fb4e204a6f9e4469f666f1d0f0b" style="width: 100.0%; height: 100.0%;">이스탄불케밥3호</div>`)[0];
+                popup_4582acc505126f371ee272a1c772d1b1.setContent(html_b1e40fb4e204a6f9e4469f666f1d0f0b);
+            
+        
+
+        marker_e538c17033ba55bcbe7001203888845c.bindPopup(popup_4582acc505126f371ee272a1c772d1b1)
+        ;
+
+        
+    
+    
+            marker_e538c17033ba55bcbe7001203888845c.bindTooltip(
+                `<div>
+                     이스탄불케밥3호
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_df0a5504c2a90d06895fa84a096a6beb = L.marker(
+                [127.066237451171, 37.5621463446238],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_de0025672241db6a764e0f0c16717407 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46511a2f95aff4de04f14c80111a5774 = $(`<div id="html_46511a2f95aff4de04f14c80111a5774" style="width: 100.0%; height: 100.0%;">칠칠켄터키</div>`)[0];
+                popup_de0025672241db6a764e0f0c16717407.setContent(html_46511a2f95aff4de04f14c80111a5774);
+            
+        
+
+        marker_df0a5504c2a90d06895fa84a096a6beb.bindPopup(popup_de0025672241db6a764e0f0c16717407)
+        ;
+
+        
+    
+    
+            marker_df0a5504c2a90d06895fa84a096a6beb.bindTooltip(
+                `<div>
+                     칠칠켄터키
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a79e85f257c142a8c0b046cd4e123f42 = L.marker(
+                [127.146124275684, 37.5504968083281],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_3331ef356105ad3dc821aeeb816bf532 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b726d41ccbd184eeeaa7328ec3c5e5b3 = $(`<div id="html_b726d41ccbd184eeeaa7328ec3c5e5b3" style="width: 100.0%; height: 100.0%;">켄터키축산물</div>`)[0];
+                popup_3331ef356105ad3dc821aeeb816bf532.setContent(html_b726d41ccbd184eeeaa7328ec3c5e5b3);
+            
+        
+
+        marker_a79e85f257c142a8c0b046cd4e123f42.bindPopup(popup_3331ef356105ad3dc821aeeb816bf532)
+        ;
+
+        
+    
+    
+            marker_a79e85f257c142a8c0b046cd4e123f42.bindTooltip(
+                `<div>
+                     켄터키축산물
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b385bf97b7cd21ba3e8d70ffd9f26ab5 = L.marker(
+                [126.987887265491, 37.5345504133626],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_2225179039df6b973e7d8136e181f2ab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d6b8d4adc83dbfc78f13ab01edc081f = $(`<div id="html_6d6b8d4adc83dbfc78f13ab01edc081f" style="width: 100.0%; height: 100.0%;">세이호이브라힘트레이딩시리언터키시키친1</div>`)[0];
+                popup_2225179039df6b973e7d8136e181f2ab.setContent(html_6d6b8d4adc83dbfc78f13ab01edc081f);
+            
+        
+
+        marker_b385bf97b7cd21ba3e8d70ffd9f26ab5.bindPopup(popup_2225179039df6b973e7d8136e181f2ab)
+        ;
+
+        
+    
+    
+            marker_b385bf97b7cd21ba3e8d70ffd9f26ab5.bindTooltip(
+                `<div>
+                     세이호이브라힘트레이딩시리언터키시키친1
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_122aaf1f506733a721d1908614e52142 = L.marker(
+                [126.97201477455, 37.5632376944138],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_2d98587622ea2752ff63cd2df12dd805 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdf823ec254dfd08567e298a82940beb = $(`<div id="html_cdf823ec254dfd08567e298a82940beb" style="width: 100.0%; height: 100.0%;">케밥빙</div>`)[0];
+                popup_2d98587622ea2752ff63cd2df12dd805.setContent(html_cdf823ec254dfd08567e298a82940beb);
+            
+        
+
+        marker_122aaf1f506733a721d1908614e52142.bindPopup(popup_2d98587622ea2752ff63cd2df12dd805)
+        ;
+
+        
+    
+    
+            marker_122aaf1f506733a721d1908614e52142.bindTooltip(
+                `<div>
+                     케밥빙
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a82a353ac3bc56b57b208e2535963b9 = L.marker(
+                [126.987887265491, 37.5345504133626],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_508f605194449245fc99b755313d43e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93fa3fea705821e0533ef8ea831c29e1 = $(`<div id="html_93fa3fea705821e0533ef8ea831c29e1" style="width: 100.0%; height: 100.0%;">세이호이브라힘트레이딩시리언터키시키친</div>`)[0];
+                popup_508f605194449245fc99b755313d43e0.setContent(html_93fa3fea705821e0533ef8ea831c29e1);
+            
+        
+
+        marker_7a82a353ac3bc56b57b208e2535963b9.bindPopup(popup_508f605194449245fc99b755313d43e0)
+        ;
+
+        
+    
+    
+            marker_7a82a353ac3bc56b57b208e2535963b9.bindTooltip(
+                `<div>
+                     세이호이브라힘트레이딩시리언터키시키친
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_32304c3c9571d69e2d23bffe8c5b3f00 = L.marker(
+                [126.989293288963, 37.5334902095107],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_f38d6f504b3c1eed9d88b2f0d3d5edb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8f117e6e9adf825dd3e5043c273bcb8 = $(`<div id="html_f8f117e6e9adf825dd3e5043c273bcb8" style="width: 100.0%; height: 100.0%;">케이할랄</div>`)[0];
+                popup_f38d6f504b3c1eed9d88b2f0d3d5edb0.setContent(html_f8f117e6e9adf825dd3e5043c273bcb8);
+            
+        
+
+        marker_32304c3c9571d69e2d23bffe8c5b3f00.bindPopup(popup_f38d6f504b3c1eed9d88b2f0d3d5edb0)
+        ;
+
+        
+    
+    
+            marker_32304c3c9571d69e2d23bffe8c5b3f00.bindTooltip(
+                `<div>
+                     케이할랄
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93ede4a3aa02d36c2773bcf80ccbb9ed = L.marker(
+                [127.031465043088, 37.6146132030681],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_f6bc41304f348bd6616b4072714eee96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47667a8778b11a3b3d84fc7bef409079 = $(`<div id="html_47667a8778b11a3b3d84fc7bef409079" style="width: 100.0%; height: 100.0%;">겉은바삭속은촉촉88켄터키미아</div>`)[0];
+                popup_f6bc41304f348bd6616b4072714eee96.setContent(html_47667a8778b11a3b3d84fc7bef409079);
+            
+        
+
+        marker_93ede4a3aa02d36c2773bcf80ccbb9ed.bindPopup(popup_f6bc41304f348bd6616b4072714eee96)
+        ;
+
+        
+    
+    
+            marker_93ede4a3aa02d36c2773bcf80ccbb9ed.bindTooltip(
+                `<div>
+                     겉은바삭속은촉촉88켄터키미아
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_090e262537b873afe5b08c14e28d2cf9 = L.marker(
+                [126.92201089749, 37.5511953320853],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_62082059c7b6b43e4d92396556be8a86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fbc722daf99f33a754d665f1163957f = $(`<div id="html_3fbc722daf99f33a754d665f1163957f" style="width: 100.0%; height: 100.0%;">킹케밥</div>`)[0];
+                popup_62082059c7b6b43e4d92396556be8a86.setContent(html_3fbc722daf99f33a754d665f1163957f);
+            
+        
+
+        marker_090e262537b873afe5b08c14e28d2cf9.bindPopup(popup_62082059c7b6b43e4d92396556be8a86)
+        ;
+
+        
+    
+    
+            marker_090e262537b873afe5b08c14e28d2cf9.bindTooltip(
+                `<div>
+                     킹케밥
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0b8fe4b89cf89f2b11bd58a7b89cf6f6 = L.marker(
+                [126.952128257239, 37.5461863559903],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_863340fef8a5c7aad6b069d5b51b08f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ed4ee4d508b1851bbc5b7a100705bd0 = $(`<div id="html_7ed4ee4d508b1851bbc5b7a100705bd0" style="width: 100.0%; height: 100.0%;">할랄미디어</div>`)[0];
+                popup_863340fef8a5c7aad6b069d5b51b08f1.setContent(html_7ed4ee4d508b1851bbc5b7a100705bd0);
+            
+        
+
+        marker_0b8fe4b89cf89f2b11bd58a7b89cf6f6.bindPopup(popup_863340fef8a5c7aad6b069d5b51b08f1)
+        ;
+
+        
+    
+    
+            marker_0b8fe4b89cf89f2b11bd58a7b89cf6f6.bindTooltip(
+                `<div>
+                     할랄미디어
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_903867c37d7f99b0bf38015e5efb879b = L.marker(
+                [126.947268710588, 37.4861334230501],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_d5ff851a5913b0ff073fe3a661117315 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52a822711206c82ae3f9648d25d3cad1 = $(`<div id="html_52a822711206c82ae3f9648d25d3cad1" style="width: 100.0%; height: 100.0%;">마스터키영어교습소</div>`)[0];
+                popup_d5ff851a5913b0ff073fe3a661117315.setContent(html_52a822711206c82ae3f9648d25d3cad1);
+            
+        
+
+        marker_903867c37d7f99b0bf38015e5efb879b.bindPopup(popup_d5ff851a5913b0ff073fe3a661117315)
+        ;
+
+        
+    
+    
+            marker_903867c37d7f99b0bf38015e5efb879b.bindTooltip(
+                `<div>
+                     마스터키영어교습소
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ed214a9ca4109fd4a7c5018e8f8e187 = L.marker(
+                [127.02436400395, 37.5025637100785],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_52db579aed5bbec89cfee6c57d27658a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdaf3158a8dbe7f1f62b3ac35627101b = $(`<div id="html_cdaf3158a8dbe7f1f62b3ac35627101b" style="width: 100.0%; height: 100.0%;">탁심케밥</div>`)[0];
+                popup_52db579aed5bbec89cfee6c57d27658a.setContent(html_cdaf3158a8dbe7f1f62b3ac35627101b);
+            
+        
+
+        marker_4ed214a9ca4109fd4a7c5018e8f8e187.bindPopup(popup_52db579aed5bbec89cfee6c57d27658a)
+        ;
+
+        
+    
+    
+            marker_4ed214a9ca4109fd4a7c5018e8f8e187.bindTooltip(
+                `<div>
+                     탁심케밥
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c8b26785cd60d08b31795abe6866ea6f = L.marker(
+                [126.940295062907, 37.5419179353946],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_a48e2d5055fb44e0fd1470416a93495f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58ecf40a3734b62db662b4e3e818f7b6 = $(`<div id="html_58ecf40a3734b62db662b4e3e818f7b6" style="width: 100.0%; height: 100.0%;">켄터키식당</div>`)[0];
+                popup_a48e2d5055fb44e0fd1470416a93495f.setContent(html_58ecf40a3734b62db662b4e3e818f7b6);
+            
+        
+
+        marker_c8b26785cd60d08b31795abe6866ea6f.bindPopup(popup_a48e2d5055fb44e0fd1470416a93495f)
+        ;
+
+        
+    
+    
+            marker_c8b26785cd60d08b31795abe6866ea6f.bindTooltip(
+                `<div>
+                     켄터키식당
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3fbb33f64f5ba485e27c4defffc52b01 = L.marker(
+                [127.006568620276, 37.5660474232139],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_a7e931f6166aeaa26a4e798e9049e97b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37ed75f66588e8db29045e876e7351cf = $(`<div id="html_37ed75f66588e8db29045e876e7351cf" style="width: 100.0%; height: 100.0%;">케밥웨이</div>`)[0];
+                popup_a7e931f6166aeaa26a4e798e9049e97b.setContent(html_37ed75f66588e8db29045e876e7351cf);
+            
+        
+
+        marker_3fbb33f64f5ba485e27c4defffc52b01.bindPopup(popup_a7e931f6166aeaa26a4e798e9049e97b)
+        ;
+
+        
+    
+    
+            marker_3fbb33f64f5ba485e27c4defffc52b01.bindTooltip(
+                `<div>
+                     케밥웨이
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ef3c0743e47ea9b3d0aa06ed96db768 = L.marker(
+                [127.118744975093, 37.4862844642593],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_bab7556221819865d4273f2839537439 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ffabc428ce1fc087a1251fdccf6b3ca = $(`<div id="html_3ffabc428ce1fc087a1251fdccf6b3ca" style="width: 100.0%; height: 100.0%;">할랄협회</div>`)[0];
+                popup_bab7556221819865d4273f2839537439.setContent(html_3ffabc428ce1fc087a1251fdccf6b3ca);
+            
+        
+
+        marker_5ef3c0743e47ea9b3d0aa06ed96db768.bindPopup(popup_bab7556221819865d4273f2839537439)
+        ;
+
+        
+    
+    
+            marker_5ef3c0743e47ea9b3d0aa06ed96db768.bindTooltip(
+                `<div>
+                     할랄협회
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11cf14679821224b5aa22972c37ae3b5 = L.marker(
+                [126.980349157502, 37.5671303882004],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_16405a69125aa57a74baa194d9cd7c16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b3a396e1b24ceb6e3813d502112f7cd = $(`<div id="html_7b3a396e1b24ceb6e3813d502112f7cd" style="width: 100.0%; height: 100.0%;">할랄투어</div>`)[0];
+                popup_16405a69125aa57a74baa194d9cd7c16.setContent(html_7b3a396e1b24ceb6e3813d502112f7cd);
+            
+        
+
+        marker_11cf14679821224b5aa22972c37ae3b5.bindPopup(popup_16405a69125aa57a74baa194d9cd7c16)
+        ;
+
+        
+    
+    
+            marker_11cf14679821224b5aa22972c37ae3b5.bindTooltip(
+                `<div>
+                     할랄투어
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a17d2524fc98f595dc0c27cc1a09254 = L.marker(
+                [126.921413526054, 37.4842242534578],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_a9818ff14923582c7cd10a086ed68001 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b82a7471bd9f5d988b3920d8475a6af = $(`<div id="html_8b82a7471bd9f5d988b3920d8475a6af" style="width: 100.0%; height: 100.0%;">런던케밥</div>`)[0];
+                popup_a9818ff14923582c7cd10a086ed68001.setContent(html_8b82a7471bd9f5d988b3920d8475a6af);
+            
+        
+
+        marker_7a17d2524fc98f595dc0c27cc1a09254.bindPopup(popup_a9818ff14923582c7cd10a086ed68001)
+        ;
+
+        
+    
+    
+            marker_7a17d2524fc98f595dc0c27cc1a09254.bindTooltip(
+                `<div>
+                     런던케밥
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1672b5a7a36a31a1409cf53b394512c3 = L.marker(
+                [126.964724267123, 37.5297632970146],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_1b2db3490959f08650def6465cc6e0b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d348869708cea4ae35c29d275d36824 = $(`<div id="html_7d348869708cea4ae35c29d275d36824" style="width: 100.0%; height: 100.0%;">이찬스마스터키친</div>`)[0];
+                popup_1b2db3490959f08650def6465cc6e0b6.setContent(html_7d348869708cea4ae35c29d275d36824);
+            
+        
+
+        marker_1672b5a7a36a31a1409cf53b394512c3.bindPopup(popup_1b2db3490959f08650def6465cc6e0b6)
+        ;
+
+        
+    
+    
+            marker_1672b5a7a36a31a1409cf53b394512c3.bindTooltip(
+                `<div>
+                     이찬스마스터키친
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6994b1d65a4ecbc8048e2377dcb5114b = L.marker(
+                [127.038379235542, 37.5614361598608],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_a1fd7b56c4aa25bc6fa93ad3c2c4d881 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67713acde7d8d15236af0406fc131656 = $(`<div id="html_67713acde7d8d15236af0406fc131656" style="width: 100.0%; height: 100.0%;">케밥빙</div>`)[0];
+                popup_a1fd7b56c4aa25bc6fa93ad3c2c4d881.setContent(html_67713acde7d8d15236af0406fc131656);
+            
+        
+
+        marker_6994b1d65a4ecbc8048e2377dcb5114b.bindPopup(popup_a1fd7b56c4aa25bc6fa93ad3c2c4d881)
+        ;
+
+        
+    
+    
+            marker_6994b1d65a4ecbc8048e2377dcb5114b.bindTooltip(
+                `<div>
+                     케밥빙
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_87d69d9fa11144e16371b5c4723488c5 = L.marker(
+                [127.093710815521, 37.540473892237],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_651504df232829e500ef3133385ea29c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_30537fb2d15555de80593de2d18c62c2 = $(`<div id="html_30537fb2d15555de80593de2d18c62c2" style="width: 100.0%; height: 100.0%;">터키그린</div>`)[0];
+                popup_651504df232829e500ef3133385ea29c.setContent(html_30537fb2d15555de80593de2d18c62c2);
+            
+        
+
+        marker_87d69d9fa11144e16371b5c4723488c5.bindPopup(popup_651504df232829e500ef3133385ea29c)
+        ;
+
+        
+    
+    
+            marker_87d69d9fa11144e16371b5c4723488c5.bindTooltip(
+                `<div>
+                     터키그린
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a698ffa0bc3feef3ef73676b73d68b3f = L.marker(
+                [126.9857302737, 37.5593016314709],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_e109d927da843ccb5626f9f3c9e1ffb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35bae80d9cc91039e995d1b3613dac78 = $(`<div id="html_35bae80d9cc91039e995d1b3613dac78" style="width: 100.0%; height: 100.0%;">할랄마켓</div>`)[0];
+                popup_e109d927da843ccb5626f9f3c9e1ffb3.setContent(html_35bae80d9cc91039e995d1b3613dac78);
+            
+        
+
+        marker_a698ffa0bc3feef3ef73676b73d68b3f.bindPopup(popup_e109d927da843ccb5626f9f3c9e1ffb3)
+        ;
+
+        
+    
+    
+            marker_a698ffa0bc3feef3ef73676b73d68b3f.bindTooltip(
+                `<div>
+                     할랄마켓
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cb6f89a9fb9295f67ab493caaba430a4 = L.marker(
+                [127.009443253917, 37.4890859091468],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_5ff4e81f7b3e0e41c69ce5486b947564 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f9c9114280667e83d08d88caedc9297 = $(`<div id="html_2f9c9114280667e83d08d88caedc9297" style="width: 100.0%; height: 100.0%;">터키이스탄불문화원</div>`)[0];
+                popup_5ff4e81f7b3e0e41c69ce5486b947564.setContent(html_2f9c9114280667e83d08d88caedc9297);
+            
+        
+
+        marker_cb6f89a9fb9295f67ab493caaba430a4.bindPopup(popup_5ff4e81f7b3e0e41c69ce5486b947564)
+        ;
+
+        
+    
+    
+            marker_cb6f89a9fb9295f67ab493caaba430a4.bindTooltip(
+                `<div>
+                     터키이스탄불문화원
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5dc38ac4e76c619f6321a890488c9b6f = L.marker(
+                [127.050089950702, 37.525209639431],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_e0a83b1a4ea8b7d0c3c1e77c1628ee82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4639f1e4ba1303010d18c4f5179b2d64 = $(`<div id="html_4639f1e4ba1303010d18c4f5179b2d64" style="width: 100.0%; height: 100.0%;">할랄식품</div>`)[0];
+                popup_e0a83b1a4ea8b7d0c3c1e77c1628ee82.setContent(html_4639f1e4ba1303010d18c4f5179b2d64);
+            
+        
+
+        marker_5dc38ac4e76c619f6321a890488c9b6f.bindPopup(popup_e0a83b1a4ea8b7d0c3c1e77c1628ee82)
+        ;
+
+        
+    
+    
+            marker_5dc38ac4e76c619f6321a890488c9b6f.bindTooltip(
+                `<div>
+                     할랄식품
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8c1d061e2985ba6bcf0f8a678d787152 = L.marker(
+                [127.068198206976, 37.5410322150577],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_7e4dfd8144cbaeec44666d188c8a62b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_141134d313182250bc10af90a5e5c288 = $(`<div id="html_141134d313182250bc10af90a5e5c288" style="width: 100.0%; height: 100.0%;">마니사케밥인</div>`)[0];
+                popup_7e4dfd8144cbaeec44666d188c8a62b9.setContent(html_141134d313182250bc10af90a5e5c288);
+            
+        
+
+        marker_8c1d061e2985ba6bcf0f8a678d787152.bindPopup(popup_7e4dfd8144cbaeec44666d188c8a62b9)
+        ;
+
+        
+    
+    
+            marker_8c1d061e2985ba6bcf0f8a678d787152.bindTooltip(
+                `<div>
+                     마니사케밥인
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f1b9667522c97ca43a8b2192fb7a202c = L.marker(
+                [126.935995391834, 37.5586115966145],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_34fb5e769a021f29c997509c400ea78f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac0ad5d5d6033d9fed8b047aceb608cf = $(`<div id="html_ac0ad5d5d6033d9fed8b047aceb608cf" style="width: 100.0%; height: 100.0%;">칠칠켄터키</div>`)[0];
+                popup_34fb5e769a021f29c997509c400ea78f.setContent(html_ac0ad5d5d6033d9fed8b047aceb608cf);
+            
+        
+
+        marker_f1b9667522c97ca43a8b2192fb7a202c.bindPopup(popup_34fb5e769a021f29c997509c400ea78f)
+        ;
+
+        
+    
+    
+            marker_f1b9667522c97ca43a8b2192fb7a202c.bindTooltip(
+                `<div>
+                     칠칠켄터키
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4741abe1951b813b19ccc053bc76eec2 = L.marker(
+                [126.984953660748, 37.563151419988],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_f9f7185012262da12f789a7e5de5ef51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58c7a3735852a26e5ff67db20586a687 = $(`<div id="html_58c7a3735852a26e5ff67db20586a687" style="width: 100.0%; height: 100.0%;">할랄부산집</div>`)[0];
+                popup_f9f7185012262da12f789a7e5de5ef51.setContent(html_58c7a3735852a26e5ff67db20586a687);
+            
+        
+
+        marker_4741abe1951b813b19ccc053bc76eec2.bindPopup(popup_f9f7185012262da12f789a7e5de5ef51)
+        ;
+
+        
+    
+    
+            marker_4741abe1951b813b19ccc053bc76eec2.bindTooltip(
+                `<div>
+                     할랄부산집
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_784c17631bcf97755938483d7483c6c2 = L.marker(
+                [127.030607609197, 37.5855476177924],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_f76eeb9e2bd9b59bd12379b061b06f6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e100e1e9440962821acce2bb2860663 = $(`<div id="html_0e100e1e9440962821acce2bb2860663" style="width: 100.0%; height: 100.0%;">골드케밥</div>`)[0];
+                popup_f76eeb9e2bd9b59bd12379b061b06f6f.setContent(html_0e100e1e9440962821acce2bb2860663);
+            
+        
+
+        marker_784c17631bcf97755938483d7483c6c2.bindPopup(popup_f76eeb9e2bd9b59bd12379b061b06f6f)
+        ;
+
+        
+    
+    
+            marker_784c17631bcf97755938483d7483c6c2.bindTooltip(
+                `<div>
+                     골드케밥
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d52ad8db76171fb002eac8bc33037b73 = L.marker(
+                [126.885870966654, 37.4791909565928],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_9b279f66bc3d07b28d6bd68d6d181816 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aabcbffd5e14923d981d92a5a2eb0f37 = $(`<div id="html_aabcbffd5e14923d981d92a5a2eb0f37" style="width: 100.0%; height: 100.0%;">낭만케밥</div>`)[0];
+                popup_9b279f66bc3d07b28d6bd68d6d181816.setContent(html_aabcbffd5e14923d981d92a5a2eb0f37);
+            
+        
+
+        marker_d52ad8db76171fb002eac8bc33037b73.bindPopup(popup_9b279f66bc3d07b28d6bd68d6d181816)
+        ;
+
+        
+    
+    
+            marker_d52ad8db76171fb002eac8bc33037b73.bindTooltip(
+                `<div>
+                     낭만케밥
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81f45f976215b5281ada752b5b554f3e = L.marker(
+                [127.072653238465, 37.6590048005238],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_a7c8c44fffa66fe78294a7605d839ddf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4bba7e66c401dad8dda03592cf3cafd5 = $(`<div id="html_4bba7e66c401dad8dda03592cf3cafd5" style="width: 100.0%; height: 100.0%;">부리나케밥</div>`)[0];
+                popup_a7c8c44fffa66fe78294a7605d839ddf.setContent(html_4bba7e66c401dad8dda03592cf3cafd5);
+            
+        
+
+        marker_81f45f976215b5281ada752b5b554f3e.bindPopup(popup_a7c8c44fffa66fe78294a7605d839ddf)
+        ;
+
+        
+    
+    
+            marker_81f45f976215b5281ada752b5b554f3e.bindTooltip(
+                `<div>
+                     부리나케밥
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5012c7a7103f29712bf5f1399f0df17b = L.marker(
+                [127.04973995679, 37.5251527607046],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_b68cc276f8c18803a873d58bf4ccbd82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0077d3617d480ab9592cecce8535562a = $(`<div id="html_0077d3617d480ab9592cecce8535562a" style="width: 100.0%; height: 100.0%;">할랄식품</div>`)[0];
+                popup_b68cc276f8c18803a873d58bf4ccbd82.setContent(html_0077d3617d480ab9592cecce8535562a);
+            
+        
+
+        marker_5012c7a7103f29712bf5f1399f0df17b.bindPopup(popup_b68cc276f8c18803a873d58bf4ccbd82)
+        ;
+
+        
+    
+    
+            marker_5012c7a7103f29712bf5f1399f0df17b.bindTooltip(
+                `<div>
+                     할랄식품
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ec595f822eafe8624ef8bdc49b1b60e = L.marker(
+                [126.978892919429, 37.5709832679583],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_10ecfa78f4a1090e00946c43f10cbd8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0f16b25dbb7b40b762b6b9a7db07eba = $(`<div id="html_a0f16b25dbb7b40b762b6b9a7db07eba" style="width: 100.0%; height: 100.0%;">할랄식품질할브로스</div>`)[0];
+                popup_10ecfa78f4a1090e00946c43f10cbd8c.setContent(html_a0f16b25dbb7b40b762b6b9a7db07eba);
+            
+        
+
+        marker_4ec595f822eafe8624ef8bdc49b1b60e.bindPopup(popup_10ecfa78f4a1090e00946c43f10cbd8c)
+        ;
+
+        
+    
+    
+            marker_4ec595f822eafe8624ef8bdc49b1b60e.bindTooltip(
+                `<div>
+                     할랄식품질할브로스
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9c7d1a9849245fa4d545c5ed268f6ca = L.marker(
+                [127.056115540456, 37.5058041831477],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_1ac01f853da6942a699dcec84ac7cddc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6472fbfcfcefa0ad121f684d7baecabf = $(`<div id="html_6472fbfcfcefa0ad121f684d7baecabf" style="width: 100.0%; height: 100.0%;">킹케밥</div>`)[0];
+                popup_1ac01f853da6942a699dcec84ac7cddc.setContent(html_6472fbfcfcefa0ad121f684d7baecabf);
+            
+        
+
+        marker_e9c7d1a9849245fa4d545c5ed268f6ca.bindPopup(popup_1ac01f853da6942a699dcec84ac7cddc)
+        ;
+
+        
+    
+    
+            marker_e9c7d1a9849245fa4d545c5ed268f6ca.bindTooltip(
+                `<div>
+                     킹케밥
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_436f4362cd7c7036dd0857a49dba0be9 = L.marker(
+                [127.0686492258, 37.5411619203699],
+                {}
+            ).addTo(map_59d55157a6ca04cf5c63f812f9330b96);
+        
+    
+        var popup_6dcba08fb61574668fea651deaa05433 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf609a314d5ee717d6c8e21bc5a121ea = $(`<div id="html_cf609a314d5ee717d6c8e21bc5a121ea" style="width: 100.0%; height: 100.0%;">킹케밥</div>`)[0];
+                popup_6dcba08fb61574668fea651deaa05433.setContent(html_cf609a314d5ee717d6c8e21bc5a121ea);
+            
+        
+
+        marker_436f4362cd7c7036dd0857a49dba0be9.bindPopup(popup_6dcba08fb61574668fea651deaa05433)
+        ;
+
+        
+    
+    
+            marker_436f4362cd7c7036dd0857a49dba0be9.bindTooltip(
+                `<div>
+                     킹케밥
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
